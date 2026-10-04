@@ -1,0 +1,29 @@
+{
+  "name": "flights-sale",
+  "version": "1.0.0",
+  "description": "Official PWA Desktop Client for flightsSALE.",
+  "main": "main.js",
+  "author": "flightsSALE",
+  "license": "MIT",
+  "scripts": {
+    "build": "electron-builder --linux snap"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.flightssale.app",
+    "productName": "flightsSALE",
+    "linux": {
+      "target": [
+        "snap"
+      ]
+    },
+    "snap": {
+      "confinement": "strict",
+      "grade": "stable"
+    }
+  }
+}
