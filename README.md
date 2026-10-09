@@ -6,7 +6,7 @@
 
 This is the official open-source repository for the **flightsSALE** Linux Desktop App featured on [flights-sale.com](https://flights-sale.com). 
 
-flightsSALE is an independent flight intelligence aggregator that curates publicly posted official airline deals, promo codes, and flash sales from around the world in real time.
+flightsSALE is an independent flight intelligence engine that curates publicly posted official airline deals, promo codes, and flash sales from around the world in real time.
 
 ---
 
